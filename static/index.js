@@ -1,7 +1,6 @@
 function passToPython() {
   const arguments = { 
     "arg1": document.getElementById('arg1').value,
-    "arg2": document.getElementById('arg2').value,
 }
 
 console.log(arguments);

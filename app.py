@@ -20,7 +20,7 @@ def passToPTT(var_text):
     id = shape.placeholder_format.idx
     if id == 2: shape.text = var_text
 
-  prs.save()
+  prs.save('test.pptx')
 
 
 app = Flask(__name__)
@@ -46,5 +46,3 @@ def test():
 
 if __name__ == '__main__':
   app.run(debug=True)
-
-
